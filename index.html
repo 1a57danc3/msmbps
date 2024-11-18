@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>msmbps</title>
+  <title>tailscale derp servers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script src="react.production.min.js"></script>
@@ -13,18 +13,11 @@
 <body onload="main()">
   <div class="content">
     <div class="header">
-      <div class="title">msmbps</div>
-      <div class="introduction">
-        Test latency(ms) and download(MBps) of many cloud service providers. DNS latency is excluded.
-        <span class="usage">You should click interesting datacenter, for its server and download, to test it further.</span>
-        <a href="https://github.com/msmbps/msmbps">GitHub</a>
+      <div class="title">
+        Test latency(ms) of tailscale derp servers.
       </div>
     </div>
     <div>
-      <a class="pagelink" href="javascript:location=location.pathname;void(0);">Page #1 - More Popular Cloud Providers</a>
-      <a class="pagelink" href="javascript:location=location.pathname+'#page2';location.reload();void(0);">Page #2 - Less Popular Cloud Providers</a><br>
-      <a class="pagelink" href="javascript:location=location.pathname+'#page3';location.reload();void(0);">Page #3 - Amazon Web Services EC2 S3</a>
-      <a class="pagelink" href="javascript:location=location.pathname+'#page4';location.reload();void(0);">Page #4 - Microsoft Azure & Google GCE</a>
       <br><br>
     </div>
     <div id="result">
